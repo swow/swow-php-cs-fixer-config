@@ -147,6 +147,8 @@ class Config extends \PhpCsFixer\Config
                 'php_unit_test_case_static_method_calls' => [
                     'call_type' => 'this',
                 ],
+                'php_unit_attributes' => true,
+                'php_unit_test_class_requires_covers' => false,
                 'static_lambda' => true,
                 'void_return' => true,
                 'fopen_flags' => false,
