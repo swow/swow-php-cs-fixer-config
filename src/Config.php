@@ -116,7 +116,7 @@ class Config extends \PhpCsFixer\Config
                 'php_unit_strict' => false,
                 'phpdoc_separation' => false,
                 'phpdoc_summary' => false,
-                'phpdoc_no_alias_tag' => [],
+                'phpdoc_no_alias_tag' => false,
                 'single_quote' => true,
                 'single_line_throw' => false,
                 'increment_style' => false,
